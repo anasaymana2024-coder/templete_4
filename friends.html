@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- render all elements normally in all browsers -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <!-- font awesome library-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- framwork -->
+        <link rel="stylesheet" href="css/framework.css">
+        <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap" rel="stylesheet">
+        <!-- main file css -->
+        <link rel="stylesheet" href="css/style.css">
+        <title>Friends</title>
+    </head>
+    <body>
+        <div class="page d-flex">
+            <div class="sidebar p-20 bg-white p-relative">
+                <h3 class="p-relative text-c">Anas</h3>
+                <ul>
+                    <li>
+                        <a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="index.html">
+                        <i class="fa-regular fa-chart-bar fa-fw"></i>
+                        <span class="mobile-none">Dashboard</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="settings.html">
+                        <i class="fa-solid fa-gear fa-fw"></i>
+                        <span class="mobile-none">Settings</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="profile.html">
+                        <i class="fa-regular fa-user fa-fw"></i>
+                        <span class="mobile-none">Profile</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="projects.html">
+                        <i class="fa-solid fa-diagram-project fa-fw"></i>
+                        <span class="mobile-none">Projects</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="courses.html">
+                        <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                        <span class="mobile-none">Courses</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="active d-flex align-center fs-14 c-black rad-6 p-10" href="friends.html">
+                        <i class="fa-regular fa-circle-user fa-fw"></i>
+                        <span class="mobile-none">Friends</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="files.html">
+                        <i class="fa-regular fa-file fa-fw"></i>
+                        <span class="mobile-none">Files</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="plans.html">
+                        <i class="fa-regular fa-credit-card fa-fw"></i>
+                        <span class="mobile-none">Plans</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="content w-full">
+                <!-- start head -->
+                <div class="head p-15 bg-white between-flex">
+                    <div class="search p-relative">
+                        <input type="search" class="p-10 rad-10" placeholder="type keyword">
+                    </div>
+                    <div class="profile d-flex align-center">
+                        <span class="notification p-relative">
+                            <i class="fa-regular fa-bell fa-lg"></i>
+                        </span>
+                        <img src="images/avatar.png" alt="">
+                    </div>
+                </div>
+                <!-- end head -->
+                <h1 class="p-relative">Friends</h1>
+                <!-- start friends page -->
+                <div class="friends-page d-grid gap-20">
+                    <div class="box p-relative p-20 bg-white rad-20">
+                        <div class="profile pb-20 border-b-eee text-c">
+                            <img src="images/friend-01.jpg" alt="" class="mb-10">
+                            <h3 class="mb-5">Anas Ayman</h3>
+                            <p class="c-grey fs-14">Javascript Developer</p>
+                        </div>
+                        <div class="pt-10 pb-10 border-b-eee center-flex">
+                            <div class="f-1">
+                                <div>
+                                    <span> 99 Friends</span>
+                                </div>
+                                <div>
+                                    <span> 15 Projects</span>
+                                </div>
+                                <div>
+                                    <span> 25 Articles</span>
+                                </div>
+                            </div>
+                            <div class="c-orange ">
+                                VIP
+                            </div>
+                        </div>
+                        <div class="between-flex pt-20 fs-13">
+                            <span class="c-grey">Joined 02/10/2021</span>
+                            <div class="links">
+                                <a href="#" class="c-white bg-blue pt-4 pb-4 pr-10 pl-10 rad-6">Profile</a>
+                                <a href="#" class="c-white bg-red pt-4 pb-4 pr-10 pl-10 rad-6">Remove</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box p-relative p-20 bg-white rad-20">
+                        <div class="profile pb-20 border-b-eee text-c">
+                            <img src="images/friend-02.jpg" alt="" class="mb-10">
+                            <h3 class="mb-5">Mazen Tarek</h3>
+                            <p class="c-grey fs-14">Graphic Designer</p>
+                        </div>
+                        <div class="pt-10 pb-10 border-b-eee center-flex">
+                            <div class="f-1">
+                                <div>
+                                    <span> 30 Friends</span>
+                                </div>
+                                <div>
+                                    <span> 11 Projects</span>
+                                </div>
+                                <div>
+                                    <span> 12 Articles</span>
+                                </div>
+                            </div>
+                            <div class="c-orange ">
+                                VIP
+                            </div>
+                        </div>
+                        <div class="between-flex pt-20">
+                            <span class="fs-13 c-grey">Joined 02/08/2020</span>
+                            <div class="links">
+                                <a href="#" class="c-white bg-blue pt-4 pb-4 pr-10 pl-10 rad-6 fs-14">Profile</a>
+                                <a href="#" class="c-white bg-red pt-4 pb-4 pr-10 pl-10 rad-6 fs-14">Remove</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box p-relative p-20 bg-white rad-20">
+                        <div class="profile pb-20 border-b-eee text-c">
+                            <img src="images/friend-03.jpg" alt="" class="mb-10">
+                            <h3 class="mb-5">Saad Mohamed</h3>
+                            <p class="c-grey fs-14">mobile Developer</p>
+                        </div>
+                        <div class="pt-10 pb-10 border-b-eee center-flex">
+                            <div class="f-1">
+                                <div>
+                                    <span> 80 Friends</span>
+                                </div>
+                                <div>
+                                    <span> 20 Projects</span>
+                                </div>
+                                <div>
+                                    <span> 18 Articles</span>
+                                </div>
+                            </div>
+                            <div class="c-orange ">
+                                VIP
+                            </div>
+                        </div>
+                        <div class="between-flex pt-20">
+                            <span class="fs-13 c-grey">Joined 02/06/2020</span>
+                            <div class="links">
+                                <a href="#" class="c-white bg-blue pt-4 pb-4 pr-10 pl-10 rad-6 fs-14">Profile</a>
+                                <a href="#" class="c-white bg-red pt-4 pb-4 pr-10 pl-10 rad-6 fs-14">Remove</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box p-relative p-20 bg-white rad-20">
+                        <div class="profile pb-20 border-b-eee text-c">
+                            <img src="images/friend-04.jpg" alt="" class="mb-10">
+                            <h3 class="mb-5">Abdo Alaa</h3>
+                            <p class="c-grey fs-14">Back-End Developer</p>
+                        </div>
+                        <div class="pt-10 pb-10 border-b-eee center-flex">
+                            <div class="f-1">
+                                <div>
+                                    <span> 70 Friends</span>
+                                </div>
+                                <div>
+                                    <span> 30 Projects</span>
+                                </div>
+                                <div>
+                                    <span> 18 Articles</span>
+                                </div>
+                            </div>
+                            <div class="c-orange ">
+                                VIP
+                            </div>
+                        </div>
+                        <div class="between-flex pt-20">
+                            <span class="fs-13 c-grey">Joined 28/06/2020</span>
+                            <div class="links">
+                                <a href="#" class="c-white bg-blue pt-4 pb-4 pr-10 pl-10 rad-6 fs-14">Profile</a>
+                                <a href="#" class="c-white bg-red pt-4 pb-4 pr-10 pl-10 rad-6 fs-14">Remove</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box p-relative p-20 bg-white rad-20">
+                        <div class="profile pb-20 border-b-eee text-c">
+                            <img src="images/friend-05.jpg" alt="" class="mb-10">
+                            <h3 class="mb-5">Zeyad Khaled</h3>
+                            <p class="c-grey fs-14">Php Developer</p>
+                        </div>
+                        <div class="pt-10 pb-10 border-b-eee center-flex">
+                            <div class="f-1">
+                                <div>
+                                    <span> 80 Friends</span>
+                                </div>
+                                <div>
+                                    <span> 30 Projects</span>
+                                </div>
+                                <div>
+                                    <span> 18 Articles</span>
+                                </div>
+                            </div>
+                            <div class="c-orange ">
+                                VIP
+                            </div>
+                        </div>
+                        <div class="between-flex pt-20">
+                            <span class="fs-13 c-grey">Joined 28/08/2020</span>
+                            <div class="links">
+                                <a href="#" class="c-white bg-blue pt-4 pb-4 pr-10 pl-10 rad-6 fs-14">Profile</a>
+                                <a href="#" class="c-white bg-red pt-4 pb-4 pr-10 pl-10 rad-6 fs-14">Remove</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box p-relative p-20 bg-white rad-20">
+                        <div class="profile pb-20 border-b-eee text-c">
+                            <img src="images/friend-01.jpg" alt="" class="mb-10">
+                            <h3 class="mb-5">Amr Ayman</h3>
+                            <p class="c-grey fs-14">Php Developer</p>
+                        </div>
+                        <div class="pt-10 pb-10 border-b-eee center-flex">
+                            <div class="f-1">
+                                <div>
+                                    <span> 99 Friends</span>
+                                </div>
+                                <div>
+                                    <span> 15 Projects</span>
+                                </div>
+                                <div>
+                                    <span> 25 Articles</span>
+                                </div>
+                            </div>
+                            <div class="c-orange ">
+                                VIP
+                            </div>
+                        </div>
+                        <div class="between-flex pt-20">
+                            <span class="fs-13 c-grey">Joined 02/10/2021</span>
+                            <div class="links">
+                                <a href="#" class="c-white bg-blue pt-4 pb-4 pr-10 pl-10 rad-6 fs-14">Profile</a>
+                                <a href="#" class="c-white bg-red pt-4 pb-4 pr-10 pl-10 rad-6 fs-14">Remove</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box p-relative p-20 bg-white rad-20">
+                        <div class="profile pb-20 border-b-eee text-c">
+                            <img src="images/friend-02.jpg" alt="" class="mb-10">
+                            <h3 class="mb-5">Ammar Ayman</h3>
+                            <p class="c-grey fs-14">Php Developer</p>
+                        </div>
+                        <div class="pt-10 pb-10 border-b-eee center-flex">
+                            <div class="f-1">
+                                <div>
+                                    <span> 43 Friends</span>
+                                </div>
+                                <div>
+                                    <span> 34 Projects</span>
+                                </div>
+                                <div>
+                                    <span> 33 Articles</span>
+                                </div>
+                            </div>
+                            <div class="c-orange ">
+                                VIP
+                            </div>
+                        </div>
+                        <div class="between-flex pt-20">
+                            <span class="fs-13 c-grey">Joined 28/06/2020</span>
+                            <div class="links">
+                                <a href="#" class="c-white bg-blue pt-4 pb-4 pr-10 pl-10 rad-6 fs-14">Profile</a>
+                                <a href="#" class="c-white bg-red pt-4 pb-4 pr-10 pl-10 rad-6 fs-14">Remove</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box p-relative p-20 bg-white rad-20">
+                        <div class="profile pb-20 border-b-eee text-c">
+                            <img src="images/friend-03.jpg" alt="" class="mb-10">
+                            <h3 class="mb-5">Mohamed Ahmed</h3>
+                            <p class="c-grey fs-14">Php Developer</p>
+                        </div>
+                        <div class="pt-10 pb-10 border-b-eee center-flex">
+                            <div class="f-1">
+                                <div>
+                                    <span> 33 Friends</span>
+                                </div>
+                                <div>
+                                    <span> 65 Projects</span>
+                                </div>
+                                <div>
+                                    <span> 74 Articles</span>
+                                </div>
+                            </div>
+                            <div class="c-orange ">
+                                VIP
+                            </div>
+                        </div>
+                        <div class="between-flex pt-20">
+                            <span class="fs-13 c-grey">Joined 28/10/2020</span>
+                            <div class="links">
+                                <a href="#" class="c-white bg-blue pt-4 pb-4 pr-10 pl-10 rad-6 fs-14">Profile</a>
+                                <a href="#" class="c-white bg-red pt-4 pb-4 pr-10 pl-10 rad-6 fs-14">Remove</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box p-relative p-20 bg-white rad-20">
+                        <div class="profile pb-20 border-b-eee text-c">
+                            <img src="images/friend-02.jpg" alt="" class="mb-10">
+                            <h3 class="mb-5">Youssief yasser</h3>
+                            <p class="c-grey fs-14">Php Developer</p>
+                        </div>
+                        <div class="pt-10 pb-10 border-b-eee center-flex">
+                            <div class="f-1">
+                                <div>
+                                    <span> 99 Friends</span>
+                                </div>
+                                <div>
+                                    <span> 15 Projects</span>
+                                </div>
+                                <div>
+                                    <span> 25 Articles</span>
+                                </div>
+                            </div>
+                            <div class="c-orange ">
+                                VIP
+                            </div>
+                        </div>
+                        <div class="between-flex pt-20">
+                            <span class="fs-13 c-grey">Joined 02/10/2021</span>
+                            <div class="links">
+                                <a href="#" class="c-white bg-blue pt-4 pb-4 pr-10 pl-10 rad-6 fs-14">Profile</a>
+                                <a href="#" class="c-white bg-red pt-4 pb-4 pr-10 pl-10 rad-6 fs-14">Remove</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box p-relative p-20 bg-white rad-20">
+                        <div class="profile pb-20 border-b-eee text-c">
+                            <img src="images/friend-04.jpg" alt="" class="mb-10">
+                            <h3 class="mb-5">Shady Adel</h3>
+                            <p class="c-grey fs-14">Php Developer</p>
+                        </div>
+                        <div class="pt-10 pb-10 border-b-eee center-flex">
+                            <div class="f-1">
+                                <div>
+                                    <span> 43 Friends</span>
+                                </div>
+                                <div>
+                                    <span> 34 Projects</span>
+                                </div>
+                                <div>
+                                    <span> 5 Articles</span>
+                                </div>
+                            </div>
+                            <div class="c-orange ">
+                                VIP
+                            </div>
+                        </div>
+                        <div class="between-flex pt-20">
+                            <span class="fs-13 c-grey">Joined 12/10/2021</span>
+                            <div class="links">
+                                <a href="#" class="c-white bg-blue pt-4 pb-4 pr-10 pl-10 rad-6 fs-14">Profile</a>
+                                <a href="#" class="c-white bg-red pt-4 pb-4 pr-10 pl-10 rad-6 fs-14">Remove</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box p-relative p-20 bg-white rad-20">
+                        <div class="profile pb-20 border-b-eee text-c">
+                            <img src="images/friend-05.jpg" alt="" class="mb-10">
+                            <h3 class="mb-5">Anas Ayman</h3>
+                            <p class="c-grey fs-14">Php Developer</p>
+                        </div>
+                        <div class="pt-10 pb-10 border-b-eee center-flex">
+                            <div class="f-1">
+                                <div>
+                                    <span> 43 Friends</span>
+                                </div>
+                                <div>
+                                    <span> 98 Projects</span>
+                                </div>
+                                <div>
+                                    <span> 23 Articles</span>
+                                </div>
+                            </div>
+                            <div class="c-orange ">
+                                VIP
+                            </div>
+                        </div>
+                        <div class="between-flex pt-20">
+                            <span class="fs-13 c-grey">Joined 02/10/2021</span>
+                            <div class="links">
+                                <a href="#" class="c-white bg-blue pt-4 pb-4 pr-10 pl-10 rad-6 fs-14">Profile</a>
+                                <a href="#" class="c-white bg-red pt-4 pb-4 pr-10 pl-10 rad-6 fs-14">Remove</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end friends page -->
+            </div>
+        </div>
+    </body>
+</html>

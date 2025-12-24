@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- render all elements normally in all browsers -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <!-- font awesome library-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- framwork -->
+        <link rel="stylesheet" href="css/framework.css">
+        <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap" rel="stylesheet">
+        <!-- main file css -->
+        <link rel="stylesheet" href="css/style.css">
+        <title>Profile</title>
+    </head>
+    <body>
+        <div class="page d-flex">
+            <div class="sidebar p-20 bg-white p-relative">
+                <h3 class="p-relative text-c">Anas</h3>
+                <ul>
+                    <li>
+                        <a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="index.html">
+                        <i class="fa-regular fa-chart-bar fa-fw"></i>
+                        <span class="mobile-none">Dashboard</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="settings.html">
+                        <i class="fa-solid fa-gear fa-fw"></i>
+                        <span class="mobile-none">Settings</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="active d-flex align-center fs-14 c-black rad-6 p-10" href="profile.html">
+                        <i class="fa-regular fa-user fa-fw"></i>
+                        <span class="mobile-none">Profile</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="projects.html">
+                        <i class="fa-solid fa-diagram-project fa-fw"></i>
+                        <span class="mobile-none">Projects</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="courses.html">
+                        <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                        <span class="mobile-none">Courses</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="friends.html">
+                        <i class="fa-regular fa-circle-user fa-fw"></i>
+                        <span class="mobile-none">Friends</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="files.html">
+                        <i class="fa-regular fa-file fa-fw"></i>
+                        <span class="mobile-none">Files</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="plans.html">
+                        <i class="fa-regular fa-credit-card fa-fw"></i>
+                        <span class="mobile-none">Plans</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="content w-full">
+                <!-- start head -->
+                <div class="head p-15 bg-white between-flex">
+                    <div class="search p-relative">
+                        <input type="search" class="p-10 rad-10" placeholder="type keyword">
+                    </div>
+                    <div class="profile d-flex align-center">
+                        <span class="notification p-relative">
+                            <i class="fa-regular fa-bell fa-lg"></i>
+                        </span>
+                        <img src="images/avatar.png" alt="">
+                    </div>
+                </div>
+                <!-- end head -->
+                <h1 class="p-relative">Profile</h1>
+                <!-- start profile content -->
+                <div class="profile-page ml-20 mr-20 mb-20">
+                    <div class="widget-one d-flex bg-white rad-10 txt-c-mobile mb-20">
+                        <div class="center-flex">
+                            <div class="text-c">
+                                <img src="images/avatar.png" alt="" class="mb-10">
+                                <h3 class="mb-10">Anas Ayman</h3>
+                                <span class="c-grey d-block mb-20">Level 20</span>
+                                <div class="out bg-eee mb-10 rad-6">
+                                    <span class="bg-blue d-block rad-6" style="width: 70%;"></span>
+                                </div>
+                                <div class="icons mb-10">
+                                    <i class="fa-solid fa-star c-orange fs-13"></i>
+                                    <i class="fa-solid fa-star c-orange fs-13"></i>
+                                    <i class="fa-solid fa-star c-orange fs-13"></i>
+                                    <i class="fa-solid fa-star c-orange fs-13"></i>
+                                    <i class="fa-solid fa-star c-orange fs-13"></i>
+                                </div>
+                                <span class="d-block c-grey fs-13">550 Rating</span>
+                            </div>
+                        </div>
+                        <div class="f-1 ">
+                            <div class=" p-20 border-b-eee">
+                                <span class="d-block c-grey mb-10">General Information</span>
+                                <div class="between-flex fs-14">
+                                    <span class=" d-block c-grey">Full Name: <span>Anas Ayman</span></span>
+                                    <span class=" d-block c-grey">Gender: <span>Male</span></span>
+                                    <span class=" d-block c-grey">Country: <span>Egypt</span></span>
+                                </div>
+                                <label >
+                                    <input type="checkbox" >
+                                    <div class=""></div>
+                                </label>
+                            </div>
+                            <div class=" p-20 border-b-eee">
+                                <span class="d-block c-grey mb-10">Personal Information</span>
+                                <div class="between-flex fs-14">
+                                    <span class=" d-block c-grey">Email: <span>A@nn.sa</span></span>
+                                    <span class=" d-block c-grey">Phone: <span>01112840749</span></span>
+                                    <span class=" d-block c-grey">Data Of Birth: <span>18/5/2006</span></span>
+                                </div>
+                                <label >
+                                    <input type="checkbox" checked>
+                                    <div class=""></div>
+                                </label>
+                            </div>
+                            <div class=" p-20 border-b-eee">
+                                <span class="d-block c-grey mb-10">Job Information</span>
+                                <div class="between-flex fs-14">
+                                    <span class=" d-block c-grey">Title: <span>Full Stack Developer</span></span>
+                                    <span class=" d-block c-grey">Programming Language: <span>Python</span></span>
+                                    <span class=" d-block c-grey">Years Of Experience: <span>+15</span></span>
+                                </div>
+                                <label >
+                                    <input type="checkbox" >
+                                    <div class=""></div>
+                                </label>
+                            </div>
+                            <div class=" p-20 border-b-eee">
+                                <span class="d-block c-grey mb-10">Billing Information</span>
+                                <div class="between-flex fs-14">
+                                    <span class=" d-block c-grey">Payment Method: <span>Paypal</span></span>
+                                    <span class=" d-block c-grey">Email: <span>anas@gmail.com</span></span>
+                                    <span class=" d-block c-grey">Subscription: <span>Monthly</span></span>
+                                </div>
+                                <label >
+                                    <input type="checkbox" checked>
+                                    <div class=""></div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="widget-two d-flex ">
+                        <div class="p-20 bg-white rad-10">
+                            <h2 class="mb-20">My Skills</h2>
+                            <p class="mb-25 c-grey">Complete Skills List</p>
+                            <div class="pb-20 border-b-eee pt-20">
+                                <span class="bg-eee pt-4 pb-4 pl-10 pr-10 rad-6 mr-5">Html</span>
+                                <span class="bg-eee pt-4 pb-4 pl-10 pr-10 rad-6 mr-5">Pugjs</span>
+                                <span class="bg-eee pt-4 pb-4 pl-10 pr-10 rad-6">HAML</span>
+                            </div>
+                            <div class="pb-20 pt-20 border-b-eee">
+                                <span class="bg-eee pt-4 pb-4 pl-10 pr-10 rad-6 mr-5">CSS</span>
+                                <span class="bg-eee pt-4 pb-4 pl-10 pr-10 rad-6 mr-5">SASS</span>
+                                <span class="bg-eee pt-4 pb-4 pl-10 pr-10 rad-6">Stylus</span>
+                            </div>
+                            <div class="pb-20 pt-20 border-b-eee">
+                                <span class="bg-eee pt-4 pb-4 pl-10 pr-10 rad-6 mr-5">Javascript</span>
+                                <span class="bg-eee pt-4 pb-4 pl-10 pr-10 rad-6">TypeScript</span>
+                            </div>
+                            <div class="pb-20 pt-20 border-b-eee">
+                                <span class="bg-eee pt-4 pb-4 pl-10 pr-10 rad-6 mr-5">Vuejs</span>
+                                <span class="bg-eee pt-4 pb-4 pl-10 pr-10 rad-6">Reactjs</span>
+                            </div>
+                            <div class="pb-20 pt-20 border-b-eee">
+                                <span class="bg-eee pt-4 pb-4 pl-10 pr-10 rad-6 mr-5">Jest</span>
+                                <span class="bg-eee pt-4 pb-4 pl-10 pr-10 rad-6">Jasmine</span>
+                            </div>
+                            <div class="pb-20 pt-20 border-b-eee">
+                                <span class="bg-eee pt-4 pb-4 pl-10 pr-10 rad-6 mr-5">Php</span>
+                                <span class="bg-eee pt-4 pb-4 pl-10 pr-10 rad-6">Laravel</span>
+                            </div>
+                            <div class=" pt-20">
+                                <span class="bg-eee pt-4 pb-4 pl-10 pr-10 rad-6 mr-5">Python</span>
+                                <span class="bg-eee pt-4 pb-4 pl-10 pr-10 rad-6">Django</span>
+                            </div>
+                        </div>
+                        <div class="f-1 p-20 bg-white rad-10">
+                            <h2 class="mb-20">Latest Activities</h2>
+                            <p class="mb-25 c-grey">Latest Activities Done By The User</p>
+                            <div class="between-flex pb-20 border-b-eee txt-c-mobile">
+                                <img src="images/activity-01.png" class="mr-20">
+                                <div class="f-1">
+                                    <h3 class="mb-10 fw-normal">store</h3>
+                                    <p class="c-grey">Bought The Mastering Python Course</p>
+                                </div>
+                                <div class="text-c">
+                                    <span class="d-block mb-10">18:10</span>
+                                    <span class="d-block c-grey">Yesterday</span>
+                                </div>
+                            </div>
+                            <div class="between-flex pb-20 pt-20 border-b-eee txt-c-mobile">
+                                <img src="images/activity-02.png" class="mr-20">
+                                <div class="f-1">
+                                    <h3 class="mb-10 fw-normal">Academy</h3>
+                                    <p class="c-grey">Got The PHP Certificate</p>
+                                </div>
+                                <div class="text-c">
+                                    <span class="d-block mb-10">16:05</span>
+                                    <span class="d-block c-grey">Yesterday</span>
+                                </div>
+                            </div>
+                            <div class="between-flex pb-20 pt-20 border-b-eee txt-c-mobile">
+                                <img src="images/activity-03.png" class="mr-20">
+                                <div class="f-1">
+                                    <h3 class="mb-10 fw-normal">Badges</h3>
+                                    <p class="c-grey">Unlocked The 10 Skills Badge</p>
+                                </div>
+                                <div class="text-c">
+                                    <span class="d-block mb-10">18:05</span>
+                                    <span class="d-block c-grey">Yesterday</span>
+                                </div>
+                            </div>
+                            <div class="between-flex pt-20 txt-c-mobile">
+                                <img src="images/activity-01.png" class="mr-20">
+                                <div class="f-1">
+                                    <h3 class="mb-10 fw-normal">store</h3>
+                                    <p class="c-grey">Bought The Typescript Course</p>
+                                </div>
+                                <div class="text-c">
+                                    <span class="d-block mb-10">12:05</span>
+                                    <span class="d-block c-grey">Yesterday</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end profile content -->
+            </div>
+        </div>
+    </body>
+</html>
